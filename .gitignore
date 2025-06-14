@@ -14,8 +14,7 @@ Thumbs.db
 # Optional environment file (if used)
 .env
 
-# Output files
-submission_output.csv
+
 
 # IDE/editor settings
 .vscode/
