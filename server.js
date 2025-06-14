@@ -7,7 +7,7 @@ try {
   const responsesArray = jsonData?.responses || [];
   if (!responsesArray || !Array.isArray(responsesArray)) {
     throw new Error(
-      "Invalid format: 'response' field is missing or not an array."
+      "Invalid format: 'responses' field is missing or not an array."
     );
   }
   const getValue = (val) => (val === null || val === undefined ? "-" : val);
